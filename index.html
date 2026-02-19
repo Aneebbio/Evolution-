@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolution Exam - Phase 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container"></div>
+
+    <div id="hud">
+        <div id="stamina-bar-container">
+            <div id="stamina-bar"></div>
+        </div>
+        <div id="instructions">ARROWS to Move | SHIFT to Sprint | SPACE to Jump/Fly</div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+            }
+        }
+    </script>
+    <script type="module" src="./src/core/Engine.js"></script>
+</body>
+</html>
